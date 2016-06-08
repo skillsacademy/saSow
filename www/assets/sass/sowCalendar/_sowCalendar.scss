@@ -1,0 +1,56 @@
+/**/
+@import "../partials/_variables";
+
+.sowCalendar{
+
+	table{
+		border-collapse:collapse;
+		border:none;
+
+		/*
+		@extend %flex;
+		@extend %flexVertical;
+		width:100%;*/
+
+	}
+
+	th,
+	td{
+		text-align:left;
+		min-width:60px;
+		padding:10px;
+	}
+
+	th{
+		padding-top:70px;
+		vertical-align:bottom;
+	}
+	th[class*=second] span{
+		display:none !important;
+	}
+
+
+	.topicUnit{
+		color:$grey2;
+		@extend %fontSmoothDbl;
+		font-size:12px;
+		font-size:1.2rem;		
+	}
+
+	.wk{
+
+		color:$grey1;
+		@extend %fontSmooth;
+		font-size:12px;
+		font-size:1.2rem;
+	}
+	
+	.date{
+		padding-top:7px;
+		display:block;
+		font-size:10px;
+		font-size:1rem;
+		color:$grey1;
+		@extend %fontSmooth;
+	}
+}

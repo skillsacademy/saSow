@@ -1,0 +1,4 @@
+# comments ...
+www/dist/*
+www/aspnet_client/*
+node_modules/

@@ -1,0 +1,11 @@
+/* fonts */
+
+
+@font-face {
+    font-family:"helevetica neue";    
+    src: url("#{$dir}/fonts/helveticaNeue/2D6691_0_0.eot");
+    src: url("#{$dir}/fonts/helveticaNeue/2D6691_0_0.eot?#iefix") format("embedded-opentype"),url("#{$dir}/fonts/helveticaNeue/2D6691_0_0.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
